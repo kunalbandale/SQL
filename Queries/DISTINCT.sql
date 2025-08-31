@@ -1,0 +1,20 @@
+-- ==================
+-- DISTINCT |		
+-- ==================
+
+-- 1] WAQTD DIFFERENT DESIGNATIONS IN EMP TABLE.
+SELECT distinct (job)
+FROM emp;
+
+-- 2] WAQTD DIFFERENT DEPTNO IN EMP TABLE.
+
+
+-- 3] WAQTD DIFFERENNT JOB & DEPTNO IN EMP TABLEE.
+SELECT distinct JOB , deptno  
+FROM emp;
+
+
+-- 4] WAQTD DIFFERENT RECORDS PRESENT IN EMP TABLE.
+SELECT DISTINCT * 
+FROM emp;
+
